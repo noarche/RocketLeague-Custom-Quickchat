@@ -2,7 +2,11 @@
 
 Enables custom quick chats (and more) in Rocket League using button macros
 
-## 
+##Prerequsites 
+
+- Pyautogui
+- Pygame
+- SpeechRecognition
 
 
 

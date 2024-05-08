@@ -2,7 +2,7 @@
 
 Enables custom quick chats (and more) in Rocket League using button macros
 
-##Prerequsites 
+# Prerequsites 
 
 - Pyautogui
 - Pygame

@@ -38,15 +38,16 @@ main_logo = '''
 
 
 '''
-print("\033[35m'°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
-print("\033[34m'°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
-print("\033[35m'°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
-print("\033[34m'°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
+print("\033[35m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
+print("\033[34m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
+print("\033[35m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
+print("\033[34m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
 print(main_logo)
-print("\033[34m'°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
-print("\033[35m'°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
-print("\033[34m'°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
-print("\033[35m'°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
+print("\033[34m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
+print("\033[35m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
+print("\033[34m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
+print("\033[35m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
+print("\033[33mWaiting for controller connection...\033[0m")
 
 # -------------------------------------------    Go to the "edit" section below to edit quickchats, macros, etc.    -----------------------------------------------------------
 
@@ -598,19 +599,22 @@ variations = {
         "I was trying to set up a dramatic comeback narrative for the team.",
         "I decided to let the goalie feel useful for a change.",
         "I was recalibrating my GPS to locate the actual goal.",
-        "I was trying to make the goal feel loved by letting it take a break from all the attention.",
+        "My skills are so advanced the game can't keep up!",
         "I was conserving my scoring prowess for the after-match celebrations.",
         "I was trying to prove a point that goals are just a social construct.",
         "I was too busy contemplating the meaning of life, goals seemed trivial in comparison.",
         "I figured scoring was overrated, wanted to keep the suspense alive.",
         "I was aiming for the stands, thought they could use a souvenir.",
-        "I was simply offering the defense some much-needed exercise.",
+        "A team of professional comedians were performing, I was too busy laughing to defend.",
         "I was giving the ball a chance to socialize with the sideline.",
         "I was under the impression we were playing reverse soccer.",
-        "I was channeling my inner artist, painting the air with my shot.",
-        "I was distracted by the beauty of the grass, momentarily forgetting the goal.",
+        "A swarm of butterflies was distracting me.",
+        "A naked woman suddenly burst into my room and demanded my attention!",
+        "A naked woman walked in and asked me to help her escape from her captors!",
+        "I was so focused on my latest podcast that I completely forgot about the hole in the wall!",
+        "I was distracted by the beauty of your wheels, momentarily forgetting the goal.",
         "I was demonstrating the importance of sportsmanship by giving the opposition a sense of false hope.",
-        "I was trying to locate the hidden camera for the prank show."
+        "A flock of seagulls distracted me."
     ],
     'obvious': [
         "Oh wow, congratulations on your extraordinary ability to state the painfully obvious.",

@@ -29,9 +29,9 @@ main_logo = '''
     
     Leave this window open in the background. Use CTRL+C to exit.
     This works best with XBOX ONE Controllers connected to PC.
-    Developer Discord: @00001337
+    \033[35mDeveloper Discord: @00001337\033[0m
     
-    Tip or donate for faster development:
+    \033[32mTip or donate for faster development:\033[0m
     (BTC) address bc1qnpjpacyl9sff6r4kfmn7c227ty9g50suhr0y9j
     (ETH) address 0x94FcBab18E4c0b2FAf5050c0c11E056893134266
     (LTC) address ltc1qu7ze2hlnkh440k37nrm4nhpv2dre7fl8xu0egx
@@ -47,7 +47,7 @@ print("\033[34m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[
 print("\033[35m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
 print("\033[34m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
 print("\033[35m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
-print("\033[33mWaiting for controller connection...\033[0m")
+print("\033[31mWaiting for controller connection...\033[0m")
 
 # -------------------------------------------    Go to the "edit" section below to edit quickchats, macros, etc.    -----------------------------------------------------------
 
@@ -1132,7 +1132,7 @@ while True:
                 print('*** Controller disconnected ***\n')
                 controller.quit()
             elif event.type == pygame.JOYDEVICEADDED:
-                print('\033[33m°°°·.°·..·°¯°·._.·Controller connected·._.·°¯°·.·°°°\033[0m')
+                print('\033[32m°°°·.°·..·°¯°·._Controller connected\033[0m')
                 pygame.joystick.init()
                 controller = pygame.joystick.Joystick(0)
                 if controller.get_numhats() > 0:

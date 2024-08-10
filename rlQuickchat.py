@@ -49,7 +49,7 @@ print("\033[34m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[
 print("\033[35m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
 print("\033[34m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
 print("\033[35m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
-print("\033[31mWaiting for controller connection...\033[0m")
+print("\033[31m°°°·.°·..·°¯°·Waiting for controller connection...°°°·.°·..·°¯°·\033[0m")
 
 # -------------------------------------------    Go to the "edit" section below to edit quickchats, macros, etc.    -----------------------------------------------------------
 
@@ -981,9 +981,9 @@ def toggleMacros(button):
         if buttonValue == buttonPressed:
             macrosOn = not macrosOn
             if macrosOn:
-                print('\033[32m°°°·.°·..·°¯°·._.· Macros Toggled ON ·._.·°¯°·.·° .·°°°\n\033[0m')
+                print('\033[32m°°°·.°·..·°¯°·._.· Macros Toggled|| ON || ·._.·°¯°·.·° .·°°°\n\033[0m')
             else:
-                print('\033[31m°°°·.°·..·°¯°·._.· Macros Toggled OFF ·._.·°¯°·.·° .·°°°\n\033[0m')
+                print('\033[31m°°°·.°·..·°¯°·._.· Macros Toggled|| OFF || ·._.·°¯°·.·° .·°°°\n\033[0m')
             time.sleep(.2)
 
 def shuffleVariations(key=''):
@@ -1026,7 +1026,7 @@ def speechToText(microphone):
             print('speak now...\n')
             audio = r.listen(source, timeout=5)
     except sr.WaitTimeoutError:
-        print(' -- Listening timed out while waiting for phrase to start -- (you didnt speak within 5s, or your mic is muted)')
+        print(' -- °°°·.°·..·°¯°·Listening timed out while waiting for phrase to start -- (you didnt speak within 5s, or your mic is muted°°°·.°·..·°¯°·)')
         return None
     startInterpretationTime = time.time()
     response = {
@@ -1084,24 +1084,19 @@ def enableBallTexture():
     time.sleep(.4)
     pyautogui.move(50, 50)
     try:
-        # find and click 'disable safe mode' button
+
         disableSafeModeButtonCoords = clickThing(disableSafeModeButtonImage)
         time.sleep(.2)
 
-        # find and click cosmetics tab
-        # (start searching 175px above located 'disable safe mode' button, looking in a 150px region beneath)
+
         cosmeticsTabCoords = clickThing(cosmeticsTabImage, confidence=0.8, region=(0, disableSafeModeButtonCoords[1] - 175, screenWidth, 150))
 
-        # find and click ball texture dropdown
-        # (start searching 100px below located cosmetics tab, looking in a 250px region beneath)
+
         dropdownCoords = clickThing(ballTextureDropdownImage, region=(0, cosmeticsTabCoords[1] + 100, screenWidth, 250))
 
-        # find and click ball texture 
-        # (start searching 15px below located dropdown menu (to avoid false positive in dropdown menu), looking in a 275px region beneath)
         ballSelectionCoords = clickThing(ballSelectionImage, region=(0, dropdownCoords[1] + 15, screenWidth, 275))
 
-        # find and click 'x' button to exit
-        # (start searching 250px above located ball texture, looking in a 150px region beneath)
+
         clickThing(xButton, region=(0, ballSelectionCoords[1] - 250, screenWidth, 150))
     
         print(f'\n<<<<<  Enabled ball texture in {round((time.time() - startTime), 2)}s  >>>>>\n')
@@ -1110,7 +1105,6 @@ def enableBallTexture():
     except Exception as e:
         print('Error:', e)
 
-# change working directory to script directory (so .png files are easily located)
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 screenWidth, screenHeight = pyautogui.size()
@@ -1121,7 +1115,7 @@ pygame.init()
 clock = pygame.time.Clock()
 controllerHasHats = False
 
-# speech recognition init
+
 r = sr.Recognizer()
 mic = sr.Microphone()
 with mic as source:
@@ -1134,14 +1128,14 @@ while True:
                 print('*** Controller disconnected ***\n')
                 controller.quit()
             elif event.type == pygame.JOYDEVICEADDED:
-                print('\033[32m°°°·.°·..·°¯°·._Controller connected\033[0m')
+                print('\033[32m°°°·.°·..·°¯°·._Controller connected°°°·.°·..·°¯°·\033[0m')
                 pygame.joystick.init()
                 controller = pygame.joystick.Joystick(0)
                 if controller.get_numhats() > 0:
                     controllerHasHats = True
                 if controller.get_init() == True:
                     print(
-                        f"\n\n~~~~~~ {controller.get_name()} detected ~~~~~~\n\nwaiting for quickchat inputs....\n\n")
+                        f"\n\n~~~~~~ {controller.get_name()} detected ~~~~~~\n\n°°°·.°·..·°¯°·waiting for quickchat inputs....°°°·.°·..·°¯°·\n\n")
             elif (event.type == pygame.JOYBUTTONDOWN) or (event.type == pygame.JOYHATMOTION):
                 buttonPressedIsHat = checkIfPressedButtonIsHat(event)
                 buttonPressed = detectButtonPressed()

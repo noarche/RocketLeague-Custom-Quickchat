@@ -12,7 +12,9 @@
 
 - check all options like "ADD PATH to Enviroment"
 - Install [python](https://www.python.org/downloads/)
-**Open the folder the script is in and rightclick the white area of folder, select 'Open in Terminal' then type:
+  
+**Open the folder the script is in and rightclick the white area of folder, select 'Open in Terminal' then type:**
+  
 - `pip install -r requirements.txt`
 - `python rlQuickchat.py`
 

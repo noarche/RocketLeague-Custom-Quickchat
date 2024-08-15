@@ -25,12 +25,12 @@ main_logo = '''
 [91m|[0m [93m|[0m[92m_[0m[96m|[0m [94m|[0m [95m|[0m[91m_[0m[93m|[0m [92m|[0m [96m|[0m [94m([0m[95m_[0m[91m_[0m[93m|[0m   [92m<[0m [96m([0m[94m_[0m[95m_[0m[91m|[0m [93m|[0m [92m|[0m [96m|[0m [94m([0m[95m_[0m[91m|[0m [93m|[0m [92m|[0m[96m_[0m 
  [94m\[0m[95m_[0m[91m_[0m[93m\[0m[92m_[0m[96m\[0m[94m\[0m[95m_[0m[91m_[0m[93m,[0m[92m_[0m[96m|[0m[94m_[0m[95m|[0m[91m\[0m[93m_[0m[92m_[0m[96m_[0m[94m|[0m[95m_[0m[91m|[0m[93m\[0m[92m_[0m[96m\[0m[94m_[0m[95m_[0m[91m_[0m[93m|[0m[92m_[0m[96m|[0m [94m|[0m[95m_[0m[91m|[0m[93m\[0m[92m_[0m[96m_[0m[94m,[0m[95m_[0m[91m|[0m[93m\[0m[92m_[0m[96m_[0m[94m|[0m                                                      
           **********************
-          XBOX CONTROLLER VERSION
+          [91mX[0m[93mB[0m[92mO[0m[96mX[0m [94mC[0m[95mO[0m[91mN[0m[93mT[0m[92mR[0m[96mO[0m[94mL[0m[95mL[0m[91mE[0m[93mR[0m [92mV[0m[96mE[0m[94mR[0m[95mS[0m[91mI[0m[93mO[0m[92mN[0m
           **********************
     https://github.com/noarche/RocketLeague-Custom-Quickchat
     
-    Leave this window open in the background. Use CTRL+C to exit.
-    This works best with XBOX ONE Controllers connected to PC.
+    [91mL[0m[93me[0m[92ma[0m[96mv[0m[94me[0m [95mt[0m[91mh[0m[93mi[0m[92ms[0m [96mw[0m[94mi[0m[95mn[0m[91md[0m[93mo[0m[92mw[0m [96mo[0m[94mp[0m[95me[0m[91mn[0m [93mi[0m[92mn[0m [96mt[0m[94mh[0m[95me[0m [91mb[0m[93ma[0m[92mc[0m[96mk[0m[94mg[0m[95mr[0m[91mo[0m[93mu[0m[92mn[0m[96md[0m[94m.[0m [95mU[0m[91ms[0m[93me[0m [92mC[0m[96mT[0m[94mR[0m[95mL[0m[91m+[0m[93mC[0m [92mt[0m[96mo[0m [94me[0m[95mx[0m[91mi[0m[93mt[0m[92m.[0m
+    [91mT[0m[93mh[0m[92mi[0m[96ms[0m [94mw[0m[95mo[0m[91mr[0m[93mk[0m[92ms[0m [96mb[0m[94me[0m[95ms[0m[91mt[0m [93mw[0m[92mi[0m[96mt[0m[94mh[0m [95mX[0m[91mB[0m[93mO[0m[92mX[0m [96mO[0m[94mN[0m[95mE[0m [91mC[0m[93mo[0m[92mn[0m[96mt[0m[94mr[0m[95mo[0m[91ml[0m[93ml[0m[92me[0m[96mr[0m[94ms[0m [95mc[0m[91mo[0m[93mn[0m[92mn[0m[96me[0m[94mc[0m[95mt[0m[91me[0m[93md[0m [92mt[0m[96mo[0m [94mP[0m[95mC[0m[91m.[0m
     \033[35mDeveloper Discord: @00001337\033[0m
     
     \033[32mTip or donate for faster development:\033[0m
@@ -49,7 +49,7 @@ print("\033[34m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[
 print("\033[35m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
 print("\033[34m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
 print("\033[35m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
-print("\033[31m°°°·.°·..·°¯°·Waiting for controller connection...°°°·.°·..·°¯°·\033[0m")
+print("\033[31mWaiting for controller connection...\033[0m")
 
 # -------------------------------------------    Go to the "edit" section below to edit quickchats, macros, etc.    -----------------------------------------------------------
 
@@ -981,9 +981,9 @@ def toggleMacros(button):
         if buttonValue == buttonPressed:
             macrosOn = not macrosOn
             if macrosOn:
-                print('\033[32m°°°·.°·..·°¯°·._.· Macros Toggled|| ON || ·._.·°¯°·.·° .·°°°\n\033[0m')
+                print('\033[32m°°°·.°·..·°¯°·._.· Macros Toggled ON ·._.·°¯°·.·° .·°°°\n\033[0m')
             else:
-                print('\033[31m°°°·.°·..·°¯°·._.· Macros Toggled|| OFF || ·._.·°¯°·.·° .·°°°\n\033[0m')
+                print('\033[31m°°°·.°·..·°¯°·._.· Macros Toggled OFF ·._.·°¯°·.·° .·°°°\n\033[0m')
             time.sleep(.2)
 
 def shuffleVariations(key=''):
@@ -1020,92 +1020,98 @@ def variation(key):
             shuffledVariations[key]['nextUsableIndex'] += 1
             return randWord
 
-def speechToText(microphone):
-    try:
-        with microphone as source:
-            print('speak now...\n')
-            audio = r.listen(source, timeout=5)
-    except sr.WaitTimeoutError:
-        print(' -- °°°·.°·..·°¯°·Listening timed out while waiting for phrase to start -- (you didnt speak within 5s, or your mic is muted°°°·.°·..·°¯°·)')
-        return None
-    startInterpretationTime = time.time()
-    response = {
-        "success": True,
-        "error": None,
-        "transcription": 'my speech recognition failed :(',
-        "interpretation time": None
-    }
-    try:
-        response["transcription"] = r.recognize_google(audio)
-        response["interpretation time"] = time.time() - startInterpretationTime
-        print(f'({round(response["interpretation time"], 2)}s interpretation)\n')
-    except sr.RequestError:
-        # API was unreachable or unresponsive
-        response["success"] = False
-        response["error"] = "API unavailable"
-        print(response)
-    except sr.UnknownValueError:
-        # speech was unintelligible
-        response["error"] = "Unable to recognize speech"
-        print(response)
-    except Exception as e:
-        print(e)
-        return
-    return response['transcription'].lower()
+#def speechToText(microphone):
+#    try:
+#        with microphone as source:
+#            print('speak now...\n')
+#            audio = r.listen(source, timeout=5)
+#    except sr.WaitTimeoutError:
+#        print(' -- Listening timed out while waiting for phrase to start -- (you didnt speak within 5s, or your mic is muted)')
+#        return None
+#    startInterpretationTime = time.time()
+#    response = {
+#        "success": True,
+#        "error": None,
+#        "transcription": 'my speech recognition failed :(',
+#        "interpretation time": None
+#    }
+#    try:
+#        response["transcription"] = r.recognize_google(audio)
+#        response["interpretation time"] = time.time() - startInterpretationTime
+#        print(f'({round(response["interpretation time"], 2)}s interpretation)\n')
+#    except sr.RequestError:
+#        # API was unreachable or unresponsive
+#        response["success"] = False
+#        response["error"] = "API unavailable"
+#        print(response)
+#    except sr.UnknownValueError:
+#        # speech was unintelligible
+#        response["error"] = "Unable to recognize speech"
+#        print(response)
+#    except Exception as e:
+#        print(e)
+#        return
+#    return response['transcription'].lower()
+#
+#def clickThing(image, confidence=0.9, grayscale=True, region=None):
+#    noRegion = not region
+#    lastResort = round(0.6 * autoclickAttemptsPerImage) # last resort will start after 60% of attempts have failed
+#    for i in range(autoclickAttemptsPerImage):
+#        try:
+#            imageCoords = pyautogui.locateCenterOnScreen(image, confidence=confidence, grayscale=grayscale) \
+#                if (noRegion) else pyautogui.locateCenterOnScreen(image, confidence=confidence, grayscale=grayscale, region=region)
+#            pyautogui.moveTo(imageCoords[0], imageCoords[1])
+#            pyautogui.mouseDown()
+#            time.sleep(.05)
+#            pyautogui.mouseUp()
+#            return imageCoords
+#        except Exception as e:
+#            print(e)
+#            if (i >= lastResort and i < autoclickAttemptsPerImage - 1):
+#                print(f'\n[attempt {i+1}] ... couldn\'t find "{image}" by searching entire screen (slower)')
+#                noRegion = True
+#            elif (i < lastResort and i < autoclickAttemptsPerImage - 1):
+#                if noRegion:
+#                    print(f'\n[attempt {i+1}] ... couldn\'t find "{image}" by searching entire screen (slower)')
+#                else:
+#                    print(f'\n[attempt {i+1}] ... couldn\'t find "{image}" in specified region')
+#            else:
+#                print(f'\n[attempt {i+1}] couldn\'t locate "{image}" on screen :(')
+#                print(f'\nCheck this guide for a potential fix:\nhttps://github.com/smallest-cock/RL-Custom-Quickchat/#autoclicker-isnt-working-correctly\n')
 
-def clickThing(image, confidence=0.9, grayscale=True, region=None):
-    noRegion = not region
-    lastResort = round(0.6 * autoclickAttemptsPerImage) # last resort will start after 60% of attempts have failed
-    for i in range(autoclickAttemptsPerImage):
-        try:
-            imageCoords = pyautogui.locateCenterOnScreen(image, confidence=confidence, grayscale=grayscale) \
-                if (noRegion) else pyautogui.locateCenterOnScreen(image, confidence=confidence, grayscale=grayscale, region=region)
-            pyautogui.moveTo(imageCoords[0], imageCoords[1])
-            pyautogui.mouseDown()
-            time.sleep(.05)
-            pyautogui.mouseUp()
-            return imageCoords
-        except Exception as e:
-            print(e)
-            if (i >= lastResort and i < autoclickAttemptsPerImage - 1):
-                print(f'\n[attempt {i+1}] ... couldn\'t find "{image}" by searching entire screen (slower)')
-                noRegion = True
-            elif (i < lastResort and i < autoclickAttemptsPerImage - 1):
-                if noRegion:
-                    print(f'\n[attempt {i+1}] ... couldn\'t find "{image}" by searching entire screen (slower)')
-                else:
-                    print(f'\n[attempt {i+1}] ... couldn\'t find "{image}" in specified region')
-            else:
-                print(f'\n[attempt {i+1}] couldn\'t locate "{image}" on screen :(')
-                print(f'\nCheck this guide for a potential fix:\nhttps://github.com/smallest-cock/RL-Custom-Quickchat/#autoclicker-isnt-working-correctly\n')
+#def enableBallTexture():
+#    startTime = time.time()
+#    time.sleep(.4)
+#    pyautogui.move(50, 50)
+#    try:
+#        # find and click 'disable safe mode' button
+#        disableSafeModeButtonCoords = clickThing(disableSafeModeButtonImage)
+#        time.sleep(.2)
 
-def enableBallTexture():
-    startTime = time.time()
-    time.sleep(.4)
-    pyautogui.move(50, 50)
-    try:
+        # find and click cosmetics tab
+        # (start searching 175px above located 'disable safe mode' button, looking in a 150px region beneath)
+#        cosmeticsTabCoords = clickThing(cosmeticsTabImage, confidence=0.8, region=(0, disableSafeModeButtonCoords[1] - 175, screenWidth, 150))
 
-        disableSafeModeButtonCoords = clickThing(disableSafeModeButtonImage)
-        time.sleep(.2)
+        # find and click ball texture dropdown
+        # (start searching 100px below located cosmetics tab, looking in a 250px region beneath)
+#        dropdownCoords = clickThing(ballTextureDropdownImage, region=(0, cosmeticsTabCoords[1] + 100, screenWidth, 250))
 
+        # find and click ball texture 
+        # (start searching 15px below located dropdown menu (to avoid false positive in dropdown menu), looking in a 275px region beneath)
+#        ballSelectionCoords = clickThing(ballSelectionImage, region=(0, dropdownCoords[1] + 15, screenWidth, 275))
 
-        cosmeticsTabCoords = clickThing(cosmeticsTabImage, confidence=0.8, region=(0, disableSafeModeButtonCoords[1] - 175, screenWidth, 150))
-
-
-        dropdownCoords = clickThing(ballTextureDropdownImage, region=(0, cosmeticsTabCoords[1] + 100, screenWidth, 250))
-
-        ballSelectionCoords = clickThing(ballSelectionImage, region=(0, dropdownCoords[1] + 15, screenWidth, 275))
-
-
-        clickThing(xButton, region=(0, ballSelectionCoords[1] - 250, screenWidth, 150))
+        # find and click 'x' button to exit
+        # (start searching 250px above located ball texture, looking in a 150px region beneath)
+#        clickThing(xButton, region=(0, ballSelectionCoords[1] - 250, screenWidth, 150))
     
-        print(f'\n<<<<<  Enabled ball texture in {round((time.time() - startTime), 2)}s  >>>>>\n')
-    except TypeError:
-        return
-    except Exception as e:
-        print('Error:', e)
+#        print(f'\n<<<<<  Enabled ball texture in {round((time.time() - startTime), 2)}s  >>>>>\n')
+#    except TypeError:
+#        return
+#    except Exception as e:
+#        print('Error:', e)
 
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
+# change working directory to script directory (so .png files are easily located)
+#os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 screenWidth, screenHeight = pyautogui.size()
 pyautogui.FAILSAFE = False
@@ -1115,11 +1121,11 @@ pygame.init()
 clock = pygame.time.Clock()
 controllerHasHats = False
 
-
-r = sr.Recognizer()
-mic = sr.Microphone()
-with mic as source:
-    r.adjust_for_ambient_noise(source) # <--- adjusts mic sensitvity for background noise based on a 1s sample of mic audio
+# speech recognition init
+#r = sr.Recognizer()
+#mic = sr.Microphone()
+#with mic as source:
+#    r.adjust_for_ambient_noise(source) # <--- adjusts mic sensitvity for background noise based on a 1s sample of mic audio
 
 while True:
     try:
@@ -1128,14 +1134,14 @@ while True:
                 print('*** Controller disconnected ***\n')
                 controller.quit()
             elif event.type == pygame.JOYDEVICEADDED:
-                print('\033[32m°°°·.°·..·°¯°·._Controller connected°°°·.°·..·°¯°·\033[0m')
+                print('\033[32m°°°·.°·..·°¯°·._Controller connected\033[0m')
                 pygame.joystick.init()
                 controller = pygame.joystick.Joystick(0)
                 if controller.get_numhats() > 0:
                     controllerHasHats = True
                 if controller.get_init() == True:
                     print(
-                        f"\n\n~~~~~~ {controller.get_name()} detected ~~~~~~\n\n°°°·.°·..·°¯°·waiting for quickchat inputs....°°°·.°·..·°¯°·\n\n")
+                        f"\n\n~~~~~~ {controller.get_name()} detected ~~~~~~\n\nwaiting for quickchat inputs....\n\n")
             elif (event.type == pygame.JOYBUTTONDOWN) or (event.type == pygame.JOYHATMOTION):
                 buttonPressedIsHat = checkIfPressedButtonIsHat(event)
                 buttonPressed = detectButtonPressed()
@@ -1204,5 +1210,3 @@ while True:
 
     # limit pygame refresh rate to "20 FPS" (drastically reduces CPU usage)
     clock.tick(20)
-
-

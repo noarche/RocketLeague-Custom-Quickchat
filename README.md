@@ -12,13 +12,11 @@ Enables custom quick chats (and more) in Rocket League using button macros
 
 # Installation
 
-- Install python, check all options like "ADD PATH to Enviroment"
-- pip install pyautogui
-- pip install pygame
-- pip install SpeechRecognition
-- pip install pyaudio
-- pip install setuptools
-- python rlQuickchat.py
+- Install [python](https://www.python.org/downloads/), check all options like "ADD PATH to Enviroment"
+- 
+- `pip install -r requirements.txt`
+- 
+- `python rlQuickchat.py`
 
 
 <a>

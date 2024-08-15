@@ -8,8 +8,10 @@
 
 
 # Installation
+![install-screenshot](https://private-user-images.githubusercontent.com/58564888/358073722-51410975-265d-4bb6-9fe8-9415ad2d4e53.png)
+- check all options like "ADD PATH to Enviroment"
+- Install [python](https://www.python.org/downloads/)
 
-- Install [python](https://www.python.org/downloads/), check all options like "ADD PATH to Enviroment"
 - `pip install -r requirements.txt`
 - `python rlQuickchat.py`
 

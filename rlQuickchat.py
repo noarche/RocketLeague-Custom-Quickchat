@@ -31,25 +31,25 @@ main_logo = '''
     
     [91mL[0m[93me[0m[92ma[0m[96mv[0m[94me[0m [95mt[0m[91mh[0m[93mi[0m[92ms[0m [96mw[0m[94mi[0m[95mn[0m[91md[0m[93mo[0m[92mw[0m [96mo[0m[94mp[0m[95me[0m[91mn[0m [93mi[0m[92mn[0m [96mt[0m[94mh[0m[95me[0m [91mb[0m[93ma[0m[92mc[0m[96mk[0m[94mg[0m[95mr[0m[91mo[0m[93mu[0m[92mn[0m[96md[0m[94m.[0m [95mU[0m[91ms[0m[93me[0m [92mC[0m[96mT[0m[94mR[0m[95mL[0m[91m+[0m[93mC[0m [92mt[0m[96mo[0m [94me[0m[95mx[0m[91mi[0m[93mt[0m[92m.[0m
     [91mT[0m[93mh[0m[92mi[0m[96ms[0m [94mw[0m[95mo[0m[91mr[0m[93mk[0m[92ms[0m [96mb[0m[94me[0m[95ms[0m[91mt[0m [93mw[0m[92mi[0m[96mt[0m[94mh[0m [95mX[0m[91mB[0m[93mO[0m[92mX[0m [96mO[0m[94mN[0m[95mE[0m [91mC[0m[93mo[0m[92mn[0m[96mt[0m[94mr[0m[95mo[0m[91ml[0m[93ml[0m[92me[0m[96mr[0m[94ms[0m [95mc[0m[91mo[0m[93mn[0m[92mn[0m[96me[0m[94mc[0m[95mt[0m[91me[0m[93md[0m [92mt[0m[96mo[0m [94mP[0m[95mC[0m[91m.[0m
-    \033[35mDeveloper Discord: @00001337\033[0m
+    \033[95mDeveloper Discord: @00001337\033[0m
     
-    \033[32mTip or donate for faster development:\033[0m
-    (BTC) address bc1qnpjpacyl9sff6r4kfmn7c227ty9g50suhr0y9j
-    (ETH) address 0x94FcBab18E4c0b2FAf5050c0c11E056893134266
-    (LTC) address ltc1qu7ze2hlnkh440k37nrm4nhpv2dre7fl8xu0egx
+    \033[92mTip or donate for faster development:\033[0m
+    \033[94m(BTC) address bc1qnpjpacyl9sff6r4kfmn7c227ty9g50suhr0y9j
+    \033[94m(ETH) address 0x94FcBab18E4c0b2FAf5050c0c11E056893134266
+    \033[94m(LTC) address ltc1qu7ze2hlnkh440k37nrm4nhpv2dre7fl8xu0egx
 
 
 '''
-print("\033[35m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
-print("\033[34m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
-print("\033[35m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
-print("\033[34m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
+print("\033[95m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
+print("\033[94m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
+print("\033[95m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
+print("\033[94m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
 print(main_logo)
-print("\033[34m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
-print("\033[35m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
-print("\033[34m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
-print("\033[35m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
-print("\033[31mWaiting for controller connection...\033[0m")
+print("\033[94m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
+print("\033[95m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
+print("\033[94m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
+print("\033[95m°°°·.°·..·°¯°·._.··._.·°¯°·.·° .·°°°\033[0m")
+print("\033[91m\n\nWaiting for controller connection...\033[0m")
 
 # -------------------------------------------    Go to the "edit" section below to edit quickchats, macros, etc.    -----------------------------------------------------------
 
@@ -812,13 +812,13 @@ variations = {
 
 
 # PNG images for autoclicker
-disableSafeModeButtonImage = 'dsm.png'
-cosmeticsTabImage = 'cosmetics_tab.png'
-ballTextureDropdownImage = 'ball_texture_dropdown.png'
-ballSelectionImage = 'ball_selection.png'
-xButton = 'x.png'
+#disableSafeModeButtonImage = 'dsm.png'
+#cosmeticsTabImage = 'cosmetics_tab.png'
+#ballTextureDropdownImage = 'ball_texture_dropdown.png'
+#ballSelectionImage = 'ball_selection.png'
+#xButton = 'x.png'
 
-autoclickAttemptsPerImage = 20
+#autoclickAttemptsPerImage = 20
 
 # Adjusts chat typing speed (seconds per character) ...
 typingDelay = .006          # 0 makes chats type out instantly (but will cut off long chats)
@@ -1134,7 +1134,7 @@ while True:
                 print('*** Controller disconnected ***\n')
                 controller.quit()
             elif event.type == pygame.JOYDEVICEADDED:
-                print('\033[32m°°°·.°·..·°¯°·._Controller connected\033[0m')
+                print('\033[32m\n\n°°°·.°·..·°¯°·._Controller connected\033[0m')
                 pygame.joystick.init()
                 controller = pygame.joystick.Joystick(0)
                 if controller.get_numhats() > 0:

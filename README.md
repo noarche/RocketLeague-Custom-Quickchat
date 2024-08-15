@@ -1,6 +1,11 @@
 # RL-Custom-Quickchat
 
-Enables custom quick chats (and more) in Rocket League using button macros
+<a>
+  <img src='https://i.imgur.com/eOYr5wB.gif' alt="overview" width="500"/>
+</a>
+
+
+### Enables custom quick chats (and more) in Rocket League using button macros
 
 
 # Installation
@@ -10,9 +15,6 @@ Enables custom quick chats (and more) in Rocket League using button macros
 - `python rlQuickchat.py`
 
 
-<a>
-  <img src='https://i.imgur.com/eOYr5wB.gif' alt="overview" width="500"/>
-</a>
 
 ## Features
 

@@ -1,8 +1,7 @@
 # RL-Custom-Quickchat
 
-<a>
-  <img src='https://i.imgur.com/eOYr5wB.gif' alt="overview" width="500"/>
-</a>
+![rlQuickChat](https://github.com/user-attachments/assets/31f984c7-5546-4bc3-933f-5c1ba5f1bdd7)
+
 
 
 ### Enables custom quick chats (and more) in Rocket League using button macros

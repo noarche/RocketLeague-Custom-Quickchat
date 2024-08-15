@@ -8,7 +8,8 @@
 
 
 # Installation
-![install-screenshot]([https://private-user-images.githubusercontent.com/58564888/358073722-51410975-265d-4bb6-9fe8-9415ad2d4e53.png](https://private-user-images.githubusercontent.com/58564888/358073722-51410975-265d-4bb6-9fe8-9415ad2d4e53.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjM3NDA3NjQsIm5iZiI6MTcyMzc0MDQ2NCwicGF0aCI6Ii81ODU2NDg4OC8zNTgwNzM3MjItNTE0MTA5NzUtMjY1ZC00YmI2LTlmZTgtOTQxNWFkMmQ0ZTUzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA4MTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwODE1VDE2NDc0NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdlZjBlYTg0OWI1MGJlYzE0ZGI1OTUyZGNiMWI4NTAzZjU3NGExNTMwYzcxMjY0ZTZjNmM3MTc5NzIzMjM0MjcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.f0b2DuVkF6VL6DWfsvdh7aJ4IWjDc27m02460xqwe-s))
+![358073722-51410975-265d-4bb6-9fe8-9415ad2d4e53](https://github.com/user-attachments/assets/6980d768-6d59-401a-b26f-6049cea80e1e)
+
 - check all options like "ADD PATH to Enviroment"
 - Install [python](https://www.python.org/downloads/)
 

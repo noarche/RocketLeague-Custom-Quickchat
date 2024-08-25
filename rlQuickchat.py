@@ -5,7 +5,6 @@ import pygame
 from random import sample
 import speech_recognition as sr
 
-
 main_logo = '''
  [91m_[0m[93m_[0m[92m_[0m[96m_[0m            [94m_[0m        [95m_[0m   [91m_[0m                                
 [93m|[0m  [92m_[0m [96m\[0m [94m_[0m[95m_[0m[91m_[0m   [93m_[0m[92m_[0m[96m_[0m[94m|[0m [95m|[0m [91m_[0m[93m_[0m[92m_[0m[96m_[0m[94m_[0m[95m|[0m [91m|[0m[93m_[0m[92m|[0m [96m|[0m    [94m_[0m[95m_[0m[91m_[0m  [93m_[0m[92m_[0m [96m_[0m  [94m_[0m[95m_[0m [91m_[0m [93m_[0m   [92m_[0m  [96m_[0m[94m_[0m[95m_[0m 

@@ -33,6 +33,11 @@
 - Toggle all macros on/off with one press of a button.
 
 
+## Will I get banned?
+
+No! This does not affect any Rocket league files. This is not a cheat or a hack. From rocket leagues point of view someone is just typing in game and chatting.
+
+
 ## Support
 
 Drop a tip

@@ -37,6 +37,15 @@
 
 No! This does not affect any Rocket league files. This is not a cheat or a hack. From rocket leagues point of view someone is just typing in game and chatting.
 
+## How do I use with PS4, PS5, KBM?
+
+I play with xbox controller so thats what this script is, HOWEVER if you want to use with other controllers all you need to do is run `button_value_tester.py` to figure out how your controller is mapped. Its pretty easy to figure out. 
+
+Once you have all the buttons written down open rlQuickchat.py in notepad and ctrl+f to find the line that starts with `buttons = {` (line 1109 at the time of writing) and change the values to match. 
+
+After mapping your controller in the script scroll down to line 1420 and start configuring the script for the responses and button combinations you want to use. 
+
+This method works for all controllers and KBM but is not turn-key like xbox controller. 
 
 ## Support
 

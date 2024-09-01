@@ -57,4 +57,6 @@ Drop a tip
     
     (LTC) address ltc1qu7ze2hlnkh440k37nrm4nhpv2dre7fl8xu0egx
 
+![githubstamp](https://github.com/user-attachments/assets/d7b584e2-ba2a-442c-8783-9acb3a4781a5)
+
 ![noarche's GitHub stats](https://github-readme-stats.vercel.app/api?username=noarche&show_icons=true&theme=transparent)
